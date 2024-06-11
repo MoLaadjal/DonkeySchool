@@ -27,17 +27,17 @@
           <i class="fas fa-bars"></i>
         </label>
         <ul class="nav-list">
-          <li><a class="active" href="#">Accueil</a></li>
-          <li><a href="#">Profil</a></li>
-          <li><a href="#">Compétences</a></li>
-          <li><a href="#">Réalisations</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a class="active" href="#Accueil">Accueil</a></li>
+          <li><a href="#about-section">Profil</a></li>
+          <li><a href="#Compétences">Compétences</a></li>
+          <li><a href="#Réalisations">Réalisations</a></li>
+          <li><a href="#Contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <div class="hero-section">
+      <div id="Accueil" class="hero-section">
         <img
           src="../assets/hero-img.jpg"
           class="hero-background"
@@ -50,7 +50,7 @@
       </div>
     </main>
 
-    <section class="about-section">
+    <section id="about-section" class="about-section">
       <div class="boxed-about-section">
         <img
           src="../assets/IMG_7532DB9FCA67-1.jpeg"
@@ -75,7 +75,7 @@
       </div>
     </section>
 
-    <section class="skills-section">
+    <section id="Compétences" class="skills-section">
       <h2>Compétences techniques</h2>
       <div class="boxed-logos">
         <img src="../assets/img/logo.png" alt="logo temporaire1" />
@@ -85,7 +85,7 @@
       </div>
     </section>
 
-    <section class="projects">
+    <section id="Réalisations" class="projects">
       <h2>Mes réalisations</h2>
       <div class="boxed-projects">
         <img
@@ -111,7 +111,7 @@
       </div>
     </section>
 
-    <form>
+    <form id="Contact">
       <h2>Contactez-moi</h2>
       <div>
         <label for="nom">Nom et prénom :</label>
@@ -140,5 +140,7 @@
       <span class="material-symbols-outlined">mail</span>
       <i class="fa-brands fa-linkedin"></i>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
