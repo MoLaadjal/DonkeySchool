@@ -186,3 +186,14 @@ h2 {
   flex-direction: column; 
   text-align: center; 
 }
+
+.boxed-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;  
+}
+
+.boxed-projects img {
+  border-radius: 3px;
+}
