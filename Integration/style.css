@@ -197,3 +197,10 @@ h2 {
 .boxed-projects img {
   border-radius: 3px;
 }
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;  
+}
