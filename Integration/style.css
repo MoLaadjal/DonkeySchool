@@ -170,3 +170,19 @@ h2 {
 .about-section img:hover {
   filter: grayscale(90%);
 }
+
+.skills-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column
+}
+
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  text-align: center; 
+}
