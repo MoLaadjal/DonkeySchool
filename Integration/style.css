@@ -14,9 +14,9 @@ body {
   letter-spacing: 1px;
 }
 
-p {
-  line-height: 1.5rem;
-}
+/* p {
+  line-height: 0.5rem;
+} */
 
 header {
   position: fixed;
@@ -163,7 +163,10 @@ h2 {
   width: 160px;
   height: auto;
   border-radius: 3px;
-  
+}
+
+.about-section p {
+  line-height: 1.5rem;
 }
 
 .about-section img:hover {
@@ -279,4 +282,22 @@ textarea {
 }
 #Contact {
   scroll-margin-top: 70px;
+}
+
+h1 p {
+  overflow: hidden;
+}
+
+h1 span {
+  display: block;
+  transform: translateY(120px);
+  position: relative;
+  overflow: hidden;
+  animation: 2s titleAnimation cubic-bezier(0, 0.55, 0.45, 1) forwards;
+}
+
+@keyframes titleAnimation {
+  to {
+    transform: initial;
+  }
 }
