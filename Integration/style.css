@@ -309,21 +309,27 @@ h1 span {
   }
 }
 
-#ch{
+
+.project input[type="checkbox"] {
   display: none;
 }
 
-#ch:checked ~ .content {
-  display: block;  
+
+.project input[type="checkbox"]:checked ~ .content {
+  display: block;
 }
 
-#ch:checked ~ label {
-  display: none;  
-} 
+
+.project input[type="checkbox"]:checked ~ label[for^="ch"] {
+  display: none;
+}
+
 
 .content {
   display: none;
 }
+
+
 
 .boxed-projects label {
   display: inline-block;
